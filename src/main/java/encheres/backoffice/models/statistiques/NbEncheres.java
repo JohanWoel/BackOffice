@@ -16,7 +16,7 @@ public class NbEncheres {
     @Column(name = "idcategorie", nullable = false)
     private Integer idCategorie;
 
-    @Column(name = "nbencheres")
+    @Column(name = "max")
     private int nbEncheres;
 
     @Column(name = "libelle")

@@ -20,7 +20,7 @@
                 <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Configurer durée minimale et maximale d'une enchère</h5>
-                    <form action="http://localhost:1234/durees/inserer" method="post">
+                    <form action="/durees/inserer" method="post">
                         <% for(EnchereDuree d : durees) { %>
                         <div class="row mb-3">
                             <label  class="col-sm-2 col-form-label">Minimale:</label>
