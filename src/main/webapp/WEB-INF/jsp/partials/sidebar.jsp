@@ -24,7 +24,7 @@
             <ul id="statistiques-nav" class="nav-content collapse " data-bs-parent="#statistiques-nav">
                 <li>
                     <a href="<%= request.getContextPath() %>/statistiques/nbmises">
-                        <i class="bi bi-circle"></i><span>Nombre de mises parcatégorie</span>
+                        <i class="bi bi-circle"></i><span>Nombre de mises par catégorie</span>
                     </a>
                 </li>
                 <li>
@@ -46,7 +46,7 @@
             <ul id="configuration-nav" class="nav-content collapse " data-bs-parent="#configuration-nav">
                 <li>
                     <a href="<%= request.getContextPath() %>/durees/insertion">
-                        <i class="bi bi-circle"></i><span>Configurer durée enchèrees</span>
+                        <i class="bi bi-circle"></i><span>Configurer durée enchères</span>
                     </a>
                 </li>
                 <li>
@@ -61,22 +61,6 @@
                 </li>
             </ul>
         </li><!-- End Components Nav -->
-
-        <li class="nav-heading">Pages</li>
-
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="pages-error-404.html">
-                <i class="bi bi-dash-circle"></i>
-                <span>Error 404</span>
-            </a>
-        </li><!-- End Error 404 Page Nav -->
-
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="pages-blank.html">
-                <i class="bi bi-file-earmark"></i>
-                <span>Blank</span>
-            </a>
-        </li><!-- End Blank Page Nav -->
 
     </ul>
 
